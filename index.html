@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+    <h1 class="logo">Portfolio</h1>
+    <div class="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#internship">Internships</a></li>
+        <li><a href="#contact-form">Contact</a></li>
+      </ul>
+    </div>
+</header>
+<div class="card">
+    <div class="info-panel">
+      <div class="profile-photo">
+          <img src="profile.png" alt="404">
+      </div>
+      <h2 class="name">Sachin</h2>
+      <h3>Software Engineer</h3>
+      <div class="social-links">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-pinterest"></i></a>
+      </div>
+      <h3 style="color: silver;">About Me</h3>
+      <div class="about" id="about">
+        <p>Aspiring for a responsible career opportunity, the aim is to leverage the acquired training and skills, and make a substantial contribution to the company's success.</p>
+      </div>
+      <hr>
+      <h3 style="color: silver;">SKILLS</h3>
+      <div class="skills-bar">
+        <div class="skills" style="width: 73%;">JAVA</div>
+      </div>
+            <div class="skills-bar">
+        <div class="skills" style="width: 82%;">PYTHON</div>
+      </div>
+            <div class="skills-bar">
+        <div class="skills" style="width: 75%;">SQL</div>
+      </div>
+            <div class="skills-bar">
+        <div class="skills" style="width: 79%;">C Programming</div>
+      </div>
+            <div class="skills-bar">
+        <div class="skills" style="width: 88%;">HTML / CSS</div>
+      </div>
+      <div class="skills-bar">
+        <div class="skills" style="width: 64%;">JAVASCRIPT</div>
+      </div>
+      <div class="skills-bar">
+         <div class="skills" style="width: 75%;">MONGODB</div>
+    </div>
+        <br>
+        <hr>
+        <br>
+        
+    <div class="education" id="education">
+      <h3>EDUCATION</h3>
+      <ul>
+        <li>
+          <h4>BE in Electronics and Communication</h4>
+          <p>Aug 2019 - May 2023</p>
+          <p>Sahyadri College of Engineering and Management</p>
+        </li>
+        <li>
+          <h4>Higher Secondary School</h4>
+          <p>Jun 2018 - May 2019</p>
+          <p>Viveka Pre-University</p>
+        </li>
+      </ul>
+    </div>
+    <hr>
+    <br>
+    <div class="projects" id="projects">
+      <h3>PROJECTS</h3>
+      <ul>
+          <li>
+            <h4>Automatic Human Following Trolley with Smart Billing System</h4>
+            <p>10/2022 - 05/2023</p>
+            <p>An intelligent trolley project integrating RFID technology and advanced tracking mechanisms to autonomously follow users while providing seamless smart billing for a convenient shopping experience.</p>
+          </li>
+          <li>
+            <h4>Fraud Detection in Credit Card Transactions Using Logistic Regression</h4>
+            <p>01/2023 - 04/2023</p>
+            <p>A project employing logistic regression to detect and prevent fraudulent activities in credit card transactions, enhancing security and minimizing financial losses.</p>
+          </li>
+          <li>
+            <h4>Building an Intelligent Solar Panel with Sun Tracking System: Enhancing Energy Efficiency</h4>
+            <p>04/2022 - 09/2022</p>
+            <p>An innovative project integrating intelligent sun tracking with solar panels to enhance energy efficiency and maximize renewable power generatio</p>
+          </li>
+      </ul>
+    </div>
+
+            <hr>
+            <br>
+    <div class="internship" id="internship">
+      <h3>INTERNSHIPS</h3>
+      <ul>
+        <li>
+          <h4>Graduate Engineer Trainee - Data Track (LTI Ignite Learning Program)</h4>
+          <p>Completed a comprehensive 10-week internship, gaining expertise in algorithms, Java, MongoDB, Python programming, and data warehousing, with exposure to the corporate environment and readiness to contribute to future projects</p>
+        </li>
+        <li>
+          <h4>VLSI Design Intern</h4>
+          <p>Engaged in a one-month internship at VLSIDEEPDIVE, gaining in-depth knowledge of VLSI design through learning logic design fundamentals, UNIX/GVIM, TCL scripting, and Verilog, enhancing practical skills and understanding of VLSI design principles</p>
+        </li>
+      </ul>
+    </div>
+            <hr>
+    <h3 style="font-size: 22px; color: silver;">Contact Us</h3>
+    <div class="contact-form" id="contact-form">
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Your email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+
+  </div>
+</div>
+  <footer>
+    <p>&copy; 2020 &#8226; Designed by</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
